@@ -8,3 +8,5 @@ ecosystem.config.js
 **/.env.production
 front/build/
 back/dist/
+back/.env
+back/node_modules
