@@ -1,0 +1,16 @@
+$star1: "../imgs/star1.jpg";
+$bg1: "../imgs/account.jpg ";
+
+.accountPage {
+  background-image: url($bg1);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: auto;
+  .accountPageContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 70%;
+    min-width: 500px;
+  }
+}
